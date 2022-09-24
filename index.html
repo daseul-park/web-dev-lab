@@ -8,14 +8,65 @@
   <meta name="author" content="">
   <meta name="description" content="">
   <meta name="keywords" content="국민대, MBA, 디지털마케팅, 일일 코로나 확진자">
-
-  <meta property="og:title" content="나의 첫 HTML 페이지">
   <!-- SEO 때문에 키워드 구현을 많이 하지만 이젠 의미 없음 -->
+  <meta property="og:title" content="나의 첫 HTML 페이지">
+  <meta property="og:description" contents="이 페이지는 1950년 영국에서 시작된 역사같은 페이지가 절대 아닙니다 ㅋ ">
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <style>
+    p {
+      font-size: 17px
+    }
+  </style>
+
+  <script>
+    //alert("당신의 컴퓨터는 귀엽습니다. ");
+  </script>
+  <!-- alert은 팝업을 사용하는 것 -->
+
+  <script src="index.js">  </script>
 </head>
 
 <body>
-  <p> 나를 동생으로만,,, 그저 그정도로만.. 귀엽다고 하지마.. </p>
-  <i> 배고파요 너무나도 배고파요... </i>
+  <!--꺽쇠 사용이 가능한 이유는 ? 
+  근데 기존에는 안되니까 아스키 테이블을 보고 사용-->
+  <h1> [속보] 배고파서, 밥 먹고 싶다. </h1>
+  <p> 최근 나의 배고픔이 너무 심각한 것이 대두되고 있다.</p>
+  <!-- 엔터를 치고 싶으면 br태그 사용해야 함 -->
+  <p> 현재 매우 배고파서 가로수라도 뜯어 먹고 심정이라고 밝혔다. 이 포악한 배고픔을 잠 재우기 위해서는 빠르게 청향으로 달려가야 할 필요가 있다. 하지만, 교수님의 수업이 끝날 틈이 보이지 않아 절망과 함께
+    내 안에 배고픔.. 더 거침없이.... 세상을.. 다 .. 흔들어나... </p>
+  <h2> 메뉴 후보지 </h2>
+  <!-- 순서가 없는 -->
+  <ul>
+    <li>해물파전과 감자 옹심이 칼국수: 9,000원</li>
+    <li>제육볶음: 10,000원</li>
+    <li>김치찌개: 8,000원</li>
+  </ul>
+
+  <h2> 메뉴 후보지 ol </h2>
+  <!-- ol reversed -->
+  <ol reversed>
+    <li>해물파전과 감자 옹심이 칼국수: 9,000원</li>
+    <li>제육볶음: 10,000원</li>
+    <li>김치찌개: 8,000원</li>
+  </ol>
+  <!-- ol start attr  -->
+  <ol start="11" type="I" reversed>
+    <li>해물파전과 감자 옹심이 칼국수: 9,000원</li>
+    <li>제육볶음: 10,000원</li>
+    <li>김치찌개: 8,000원</li>
+  </ol>
+  <a href="https://www.naver.com/" target="_blank"> Yon Can Search</a>
+  <!-- 근데 네이버든 구글이든 연결이 안되서 우회해야할듯 
+  target="_blank" 을 통해서 새로운 링크로 연결이 가능한 이럴 경우에 유치한 고객이 이탈해서 고객과의 사이클이 끊겨 버림; 외부링크는 무조건 새 탭으로 만들자 ! 
+  -->
+  <h2> 개요 </h2>
+  <h2> 국민대학교 319호 강의실에서 발견된 학생</h3>
+    <h3> 한식</h3>
+    <h3> 양식</h3>
+
+
+    <p> 나를 동생으로만,,, 그저 그정도로만.. 귀엽다고 하지마.. </p>
+    <i> 배고파요 너무나도 배고파요... </i>
 </body>
 
 </html>
